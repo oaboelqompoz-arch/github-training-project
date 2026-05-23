@@ -29,8 +29,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Flutter GitHub Assignment"),
-        centerTitle: true,
-      ),
+        centerTitle: false,      ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
