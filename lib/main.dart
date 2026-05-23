@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("GitHub Training Project"),
+        title: const Text("Flutter GitHub Assignment"),
         centerTitle: true,
       ),
       body: Padding(
