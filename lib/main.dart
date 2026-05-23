@@ -13,8 +13,7 @@ class GitHubTrainingApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'GitHub Training',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+        primarySwatch: Colors.green,      ),
       home: const HomePage(),
     );
   }
@@ -55,6 +54,15 @@ class HomePage extends StatelessWidget {
                 leading: const Icon(Icons.code),
                 title: const Text("Technologies"),
                 subtitle: const Text("Flutter - Dart - GitHub"),
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            Card(
+              child: ListTile(
+                leading: const Icon(Icons.school),
+                title: const Text("University"),
+                subtitle: const Text("ضع اسم جامعتك هنا"),
               ),
             ),
           ],
