@@ -13,7 +13,9 @@ class GitHubTrainingApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'GitHub Training',
       theme: ThemeData(
-        primarySwatch: Colors.green,      ),
+        primarySwatch: Colors.green,
+        scaffoldBackgroundColor: Colors.grey.shade200,
+      ),
       home: const HomePage(),
     );
   }
